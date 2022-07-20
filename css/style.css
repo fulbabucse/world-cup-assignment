@@ -175,12 +175,6 @@
     transition: all .3s;
 }
 
-.blog:hover .blog-image {
-    transform: scale(1.08);
-    transition: all .3s ease-in-out;
-    cursor: pointer;
-}
-
 
 .blog-details {
     padding: 20px;
@@ -411,10 +405,10 @@
 
     .nav-link:last-child {
         margin-bottom: 30px;
-        border: none;
     }
 
-    .blogs {
+    .blogs,
+    .upcoming-match {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
